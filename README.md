@@ -12,7 +12,7 @@
 *MENTOR :* NEELA SANTHOSH KUMAR
 
 
-The Join Practice task is designed to strengthen understanding of how relational databases allow us to combine information across multiple tables. In the *prtkintern* database, we have four core entities: job seekers, companies, jobs, and applications. Each table represents a distinct aspect of the recruitment process, but the real value comes when we connect them together. SQL joins are the mechanism that enables this connection, allowing us to answer complex questions that cannot be solved by looking at a single table in isolation.
+The Join Practice task is designed to strengthen understanding of how relational databases allow us to combine information across multiple tables. In the ##prtkintern database, we have four core entities: job seekers, companies, jobs, and applications. Each table represents a distinct aspect of the recruitment process, but the real value comes when we connect them together. SQL joins are the mechanism that enables this connection, allowing us to answer complex questions that cannot be solved by looking at a single table in isolation.
 
 An INNER JOIN is the most common type of join. It returns only those records where there is a match in both tables. For example, if we want to list all job seekers who have applied for jobs, we can join the job_seekers table with the applications table on the seeker_id. This ensures that only job seekers with applications are displayed. INNER JOIN is useful when we are interested in relationships that exist in both datasets.
 
